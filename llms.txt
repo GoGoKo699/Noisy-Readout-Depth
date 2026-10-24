@@ -11,10 +11,15 @@ Authoritative route:
 - science/interpretation.md: resource accounting, global phase ambiguity, and counterexamples outside the model.
 - references/RELATED_WORK.md: inherited methods, exact model/quantifier comparison, and source locations.
 - references/references.bib: structured bibliographic metadata.
+- learning/README.md: entrypoint for the common learning route and its two phases.
+- learning/MILESTONES.md: exactly 30 project-defined understanding targets, dependencies, and science pointers; M01–M12 background, M13–M30 narrative.
+- learning/ANCHOR.md: the single educational anchor, Tóth and Apellaniz (2014), arXiv:1405.4878v4; selected sections and translated notation.
+- learning/BRIDGE.md: original explanation connecting the anchor to terminal detector noise, block decoding, the converse, and the depth frontier.
 - verification/README.md: reproduction commands and the scope of finite checks.
 
 For the shortest scientific story, read README.md, science/model.md, and science/interpretation.md.
 For a proof audit, read model, converse, construction, frontier, then detectors.
+For study, start with learning/README.md, use learning/MILESTONES.md as the fixed project map, and follow learning/ANCHOR.md and learning/BRIDGE.md alongside the linked science pages.
 For reproduction, run python3 verification/run_all.py after installing verification/requirements.txt.
 
 Essential distinctions:
@@ -29,3 +34,4 @@ Essential distinctions:
 - Readout depth is not total preparation-and-sensing cost.
 - Purification machinery and the global GHZ decoder are inherited. Consult related work before describing novelty.
 - Finite numerical checks do not establish universal theorems, experimental performance, or publication priority.
+- The common learning route has one educational anchor. Supplementary reviews in the bibliography are not additional prerequisites.

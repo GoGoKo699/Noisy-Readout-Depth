@@ -56,7 +56,7 @@ Purification and Kraus-representation bounds are developed by [Escher, de Matos 
 
 ## General reviews
 
-These reviews supply background rather than the detector-depth theorem. They are distinct from the primary-source dependencies above.
+The single educational anchor is [Tóth and Apellaniz (2014)](../learning/ANCHOR.md), used by the [source-to-project bridge](../learning/BRIDGE.md). The other reviews below are supplementary bibliographic references, not additional prerequisites. These sources supply standard metrological background; the detector-depth theorem and its primary research dependencies are presented separately above.
 
 | Review | Useful sections in the linked version |
 |---|---|
