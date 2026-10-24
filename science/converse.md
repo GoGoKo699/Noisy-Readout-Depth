@@ -11,7 +11,7 @@ Let $\eta=2p$. Replace each final noisy detector, for the purpose of an upper bo
 ```math
 \mathcal E_\eta(\sigma)
 =(1-\eta)\sigma\oplus
-\eta\,\operatorname{Tr}(\sigma)\lvert e\rangle\langle e\rvert.
+\eta\,\mathrm{Tr}(\sigma)\lvert e\rangle\langle e\rvert.
 ```
 
 The receiver can tell whether the output was erased. Measure a retained qubit ideally in the computational basis; replace an erased output by a fresh fair bit; then discard the flag. The resulting classical bit is flipped with probability $\eta/2=p$. Applying this rule independently to every output exactly reproduces the original detector channel, even for entangled inputs.

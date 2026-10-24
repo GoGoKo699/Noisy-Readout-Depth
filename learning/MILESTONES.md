@@ -52,7 +52,7 @@ Dependencies refer only to earlier milestones. A dependency identifies an idea u
 **Quantum sensitivity and a chosen measurement**
 
 - **Central question:** Why can the state possess more information than the actual detector record reveals?
-- **Understanding target:** Distinguish QFI from the classical information obtained by a specified measurement. Use $F_Q=4\operatorname{Var}(H)$ for pure unitary families, and explain why parameter-independent processing cannot improve QFI.
+- **Understanding target:** Distinguish QFI from the classical information obtained by a specified measurement. Use $F_Q=4\mathrm{Var}(H)$ for pure unitary families, and explain why parameter-independent processing cannot improve QFI.
 - **Dependencies and story role:** M01–M03. Add the measurement-independent benchmark needed to judge a readout.
 - **Conceptual connection:** An optimal-measurement statement does not provide an implementation within a restricted noisy circuit architecture.
 - **Source pointers:** Anchor §4.2, Eqs. (55), (59)–(61), (77), and §4.3, Eqs. (83)–(87); [information being bounded](../science/model.md#the-information-being-bounded).
