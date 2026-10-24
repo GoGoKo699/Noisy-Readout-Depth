@@ -44,7 +44,7 @@ This is a local measure of sensitivity. The quantum Fisher information (QFI) is 
 F_C(\theta)\le F_Q(\rho_\theta)\le N^2.
 ```
 
-For a pure unitary family, $F_Q=4\operatorname{Var}(H)$; the spectral width of $H$ is $N$, which proves the last bound, including mixed states by purification. Product equatorial probes have QFI $N$ and GHZ probes have QFI $N^2$. The standard local-estimation definitions are reviewed in [Tóth and Apellaniz](../references/references.bib) and [Paris](../references/references.bib).
+For a pure unitary family, $F_Q=4\mathrm{Var}(H)$; the spectral width of $H$ is $N$, which proves the last bound, including mixed states by purification. Product equatorial probes have QFI $N$ and GHZ probes have QFI $N^2$. The standard local-estimation definitions are reviewed in [Tóth and Apellaniz](../references/references.bib) and [Paris](../references/references.bib).
 
 With independent repetitions and the usual local regularity and unbiasedness conditions, Fisher information governs the Cramér–Rao lower bound on estimator variance. A large value does not resolve the many identical fringes of a GHZ likelihood. No global phase-risk claim is inferred here.
 
