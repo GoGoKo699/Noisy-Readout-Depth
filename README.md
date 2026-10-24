@@ -53,6 +53,12 @@ The construction uses GHZ sensing groups, compression within readout blocks, a l
 
 The global decoder primitive and the general purification machinery are established prior work. A recent ideal-detector result has the same threshold exponents under different quantifiers. The [attribution account](references/RELATED_WORK.md) makes those distinctions explicit.
 
+## Learn the argument
+
+The [learning route](learning/README.md) uses **Tóth and Apellaniz (2014), _Quantum metrology from a quantum information science perspective_**, as its single educational anchor. The [source guide](learning/ANCHOR.md) identifies the relevant sections and translates the notation. The [bridge](learning/BRIDGE.md) explains the missing steps from GHZ sensitivity to detector reliability, causal supports, and the depth frontier.
+
+The [30-milestone map](learning/MILESTONES.md) has two phases: **12 background milestones** assemble local estimation, circuit causality, and classical decoding; **18 narrative milestones** combine the converse and construction into the full result. Each milestone gives a central question, an understanding target, dependencies, conceptual connections, and links to the authoritative science. The map describes the project for any reader.
+
 ## Reproduce the checks
 
 With the pinned numerical dependencies installed, run from the repository root:
