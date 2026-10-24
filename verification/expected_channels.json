@@ -1,0 +1,1124 @@
+{
+  "schema_version": 1,
+  "seed": 20261024,
+  "scope": "Finite algebra and channel checks; proof and novelty are separate.",
+  "gauge": {
+    "covariance_max_error": 8.881784197001252e-16,
+    "gauge_max_error": 3.552836072953085e-15,
+    "mean_residual_max_error": 2.220446049250313e-16,
+    "norm_identity_error": 1.8474111129762605e-13,
+    "gauge_cones": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        3
+      ]
+    ],
+    "gauge_eta": 0.46
+  },
+  "random_channels": [
+    {
+      "n": 4,
+      "depth": 0,
+      "input": "pure",
+      "p": 0.1,
+      "classical_fi": 0.10829820486754685,
+      "erasure_qfi": 1.5968645205080216,
+      "support_bound": 16.0,
+      "input_qfi": 2.078036632038622,
+      "finite_difference_max_error": 1.9000682971448413e-11
+    },
+    {
+      "n": 4,
+      "depth": 0,
+      "input": "pure",
+      "p": 0.3,
+      "classical_fi": 0.007906311850444634,
+      "erasure_qfi": 0.5493491471537421,
+      "support_bound": 2.666666666666667,
+      "input_qfi": 2.078036632038622,
+      "finite_difference_max_error": 1.040548289893417e-11
+    },
+    {
+      "n": 4,
+      "depth": 0,
+      "input": "pure",
+      "p": 0.45,
+      "classical_fi": 0.0003346356482845462,
+      "erasure_qfi": 0.058863263522290564,
+      "support_bound": 0.44444444444444464,
+      "input_qfi": 2.078036632038622,
+      "finite_difference_max_error": 9.858341356791533e-12
+    },
+    {
+      "n": 4,
+      "depth": 0,
+      "input": "mixed",
+      "p": 0.1,
+      "classical_fi": 0.0363264234885431,
+      "erasure_qfi": 1.043069634292515,
+      "support_bound": 16.0,
+      "input_qfi": 2.021009978953724,
+      "finite_difference_max_error": 9.309572860868864e-12
+    },
+    {
+      "n": 4,
+      "depth": 0,
+      "input": "mixed",
+      "p": 0.3,
+      "classical_fi": 0.004644935763567119,
+      "erasure_qfi": 0.16308315600136647,
+      "support_bound": 2.666666666666667,
+      "input_qfi": 2.021009978953724,
+      "finite_difference_max_error": 9.399607828197709e-12
+    },
+    {
+      "n": 4,
+      "depth": 0,
+      "input": "mixed",
+      "p": 0.45,
+      "classical_fi": 0.0002394952472308746,
+      "erasure_qfi": 0.00966429911228277,
+      "support_bound": 0.44444444444444464,
+      "input_qfi": 2.021009978953724,
+      "finite_difference_max_error": 9.11177296808452e-12
+    },
+    {
+      "n": 4,
+      "depth": 1,
+      "input": "pure",
+      "p": 0.1,
+      "classical_fi": 0.2968101038184623,
+      "erasure_qfi": 3.436088354757473,
+      "support_bound": 191.99999999999997,
+      "input_qfi": 4.399808502404088,
+      "finite_difference_max_error": 1.7170036226143992e-11
+    },
+    {
+      "n": 4,
+      "depth": 1,
+      "input": "pure",
+      "p": 0.3,
+      "classical_fi": 0.03584526658015345,
+      "erasure_qfi": 1.1060490485485481,
+      "support_bound": 14.222222222222225,
+      "input_qfi": 4.399808502404088,
+      "finite_difference_max_error": 6.418631251503548e-12
+    },
+    {
+      "n": 4,
+      "depth": 1,
+      "input": "pure",
+      "p": 0.45,
+      "classical_fi": 0.0018111907020649013,
+      "erasure_qfi": 0.1028884700586011,
+      "support_bound": 1.8765432098765427,
+      "input_qfi": 4.399808502404088,
+      "finite_difference_max_error": 8.361542361279284e-12
+    },
+    {
+      "n": 4,
+      "depth": 1,
+      "input": "mixed",
+      "p": 0.1,
+      "classical_fi": 0.06141398189621987,
+      "erasure_qfi": 1.1038692551922713,
+      "support_bound": 191.99999999999997,
+      "input_qfi": 2.1547430234825544,
+      "finite_difference_max_error": 1.5843491449341052e-11
+    },
+    {
+      "n": 4,
+      "depth": 1,
+      "input": "mixed",
+      "p": 0.3,
+      "classical_fi": 0.004872748720549135,
+      "erasure_qfi": 0.16826950546420497,
+      "support_bound": 14.222222222222225,
+      "input_qfi": 2.1547430234825544,
+      "finite_difference_max_error": 9.611117457453133e-12
+    },
+    {
+      "n": 4,
+      "depth": 1,
+      "input": "mixed",
+      "p": 0.45,
+      "classical_fi": 0.00019279680432069334,
+      "erasure_qfi": 0.009879708763226056,
+      "support_bound": 1.8765432098765427,
+      "input_qfi": 2.1547430234825544,
+      "finite_difference_max_error": 5.904171357547228e-12
+    },
+    {
+      "n": 4,
+      "depth": 2,
+      "input": "pure",
+      "p": 0.1,
+      "classical_fi": 0.7098101520892026,
+      "erasure_qfi": 3.477194763503849,
+      "support_bound": 9983.999999999998,
+      "input_qfi": 4.1192735147801915,
+      "finite_difference_max_error": 1.693659101853484e-11
+    },
+    {
+      "n": 4,
+      "depth": 2,
+      "input": "pure",
+      "p": 0.3,
+      "classical_fi": 0.08122183024677089,
+      "erasure_qfi": 1.4105449402427022,
+      "support_bound": 107.45679012345681,
+      "input_qfi": 4.1192735147801915,
+      "finite_difference_max_error": 5.410151493467907e-12
+    },
+    {
+      "n": 4,
+      "depth": 2,
+      "input": "pure",
+      "p": 0.45,
+      "classical_fi": 0.0035998643833906685,
+      "erasure_qfi": 0.17561658686885637,
+      "support_bound": 8.386526444139612,
+      "input_qfi": 4.1192735147801915,
+      "finite_difference_max_error": 9.500691899866354e-12
+    },
+    {
+      "n": 4,
+      "depth": 2,
+      "input": "mixed",
+      "p": 0.1,
+      "classical_fi": 0.04103606710025033,
+      "erasure_qfi": 0.7624258554853418,
+      "support_bound": 9983.999999999998,
+      "input_qfi": 1.4425734886181654,
+      "finite_difference_max_error": 1.220062245677056e-11
+    },
+    {
+      "n": 4,
+      "depth": 2,
+      "input": "mixed",
+      "p": 0.3,
+      "classical_fi": 0.00529365969660189,
+      "erasure_qfi": 0.1347988802994036,
+      "support_bound": 107.45679012345681,
+      "input_qfi": 1.4425734886181654,
+      "finite_difference_max_error": 1.0789621366497082e-11
+    },
+    {
+      "n": 4,
+      "depth": 2,
+      "input": "mixed",
+      "p": 0.45,
+      "classical_fi": 0.00028605638125585645,
+      "erasure_qfi": 0.012322214067510301,
+      "support_bound": 8.386526444139612,
+      "input_qfi": 1.4425734886181654,
+      "finite_difference_max_error": 6.623916042405864e-12
+    }
+  ],
+  "decoders": [
+    {
+      "n": 3,
+      "block_sizes": [
+        3
+      ],
+      "p": 0.1,
+      "logical_phase": 0.37,
+      "visibility": 0.944,
+      "parity_fi": 4.653052784006863,
+      "formula_fi": 4.653052784006867,
+      "raw_record_fi": 6.7630780060327345,
+      "likelihood_max_error": 3.3306690738754696e-16
+    },
+    {
+      "n": 3,
+      "block_sizes": [
+        3
+      ],
+      "p": 0.25,
+      "logical_phase": 0.37,
+      "visibility": 0.6875,
+      "parity_fi": 0.9441809151178957,
+      "formula_fi": 0.9441809151178963,
+      "raw_record_fi": 1.9837001425478684,
+      "likelihood_max_error": 3.3306690738754696e-16
+    },
+    {
+      "n": 3,
+      "block_sizes": [
+        3
+      ],
+      "p": 0.4,
+      "logical_phase": 0.37,
+      "visibility": 0.29599999999999993,
+      "parity_fi": 0.11161499165691144,
+      "formula_fi": 0.1116149916569115,
+      "raw_record_fi": 0.16566782194232438,
+      "likelihood_max_error": 2.220446049250313e-16
+    },
+    {
+      "n": 3,
+      "block_sizes": [
+        3
+      ],
+      "p": 0.1,
+      "logical_phase": 1.11,
+      "visibility": 0.944,
+      "parity_fi": 7.81066443717908,
+      "formula_fi": 7.810664437179081,
+      "raw_record_fi": 7.95371160614903,
+      "likelihood_max_error": 4.440892098500626e-16
+    },
+    {
+      "n": 3,
+      "block_sizes": [
+        3
+      ],
+      "p": 0.25,
+      "logical_phase": 1.11,
+      "visibility": 0.6875,
+      "parity_fi": 3.7646328086188454,
+      "formula_fi": 3.764632808618848,
+      "raw_record_fi": 4.351791927618133,
+      "likelihood_max_error": 5.551115123125783e-16
+    },
+    {
+      "n": 3,
+      "block_sizes": [
+        3
+      ],
+      "p": 0.4,
+      "logical_phase": 1.11,
+      "visibility": 0.29599999999999993,
+      "parity_fi": 0.6437827804791543,
+      "formula_fi": 0.6437827804791545,
+      "raw_record_fi": 0.842264589292212,
+      "likelihood_max_error": 2.220446049250313e-16
+    },
+    {
+      "n": 3,
+      "block_sizes": [
+        3
+      ],
+      "p": 0.1,
+      "logical_phase": 1.5707963267948966,
+      "visibility": 0.944,
+      "parity_fi": 8.020223999999999,
+      "formula_fi": 8.020223999999999,
+      "raw_record_fi": 8.089249315068491,
+      "likelihood_max_error": 6.661338147750939e-16
+    },
+    {
+      "n": 3,
+      "block_sizes": [
+        3
+      ],
+      "p": 0.25,
+      "logical_phase": 1.5707963267948966,
+      "visibility": 0.6875,
+      "parity_fi": 4.253906249999999,
+      "formula_fi": 4.25390625,
+      "raw_record_fi": 4.660714285714284,
+      "likelihood_max_error": 4.440892098500626e-16
+    },
+    {
+      "n": 3,
+      "block_sizes": [
+        3
+      ],
+      "p": 0.4,
+      "logical_phase": 1.5707963267948966,
+      "visibility": 0.29599999999999993,
+      "parity_fi": 0.7885439999999995,
+      "formula_fi": 0.7885439999999996,
+      "raw_record_fi": 1.0018285714285708,
+      "likelihood_max_error": 2.7755575615628914e-16
+    },
+    {
+      "n": 2,
+      "block_sizes": [
+        2
+      ],
+      "p": 0.1,
+      "logical_phase": 0.37,
+      "visibility": 0.8,
+      "parity_fi": 0.754491195759061,
+      "formula_fi": 0.7544911957590618,
+      "raw_record_fi": 2.364572797227359,
+      "likelihood_max_error": 2.220446049250313e-16
+    },
+    {
+      "n": 2,
+      "block_sizes": [
+        2
+      ],
+      "p": 0.25,
+      "logical_phase": 0.37,
+      "visibility": 0.5,
+      "parity_fi": 0.1670718697005213,
+      "formula_fi": 0.16707186970052143,
+      "raw_record_fi": 0.4715569973494132,
+      "likelihood_max_error": 1.3877787807814457e-16
+    },
+    {
+      "n": 2,
+      "block_sizes": [
+        2
+      ],
+      "p": 0.4,
+      "logical_phase": 0.37,
+      "visibility": 0.19999999999999996,
+      "parity_fi": 0.02167618253794288,
+      "formula_fi": 0.0216761825379429,
+      "raw_record_fi": 0.04617272385633068,
+      "likelihood_max_error": 2.220446049250313e-16
+    },
+    {
+      "n": 2,
+      "block_sizes": [
+        2
+      ],
+      "p": 0.1,
+      "logical_phase": 1.11,
+      "visibility": 0.8,
+      "parity_fi": 2.351377972235763,
+      "formula_fi": 2.3513779722357637,
+      "raw_record_fi": 3.0853115500930626,
+      "likelihood_max_error": 3.3306690738754696e-16
+    },
+    {
+      "n": 2,
+      "block_sizes": [
+        2
+      ],
+      "p": 0.25,
+      "logical_phase": 1.11,
+      "visibility": 0.5,
+      "parity_fi": 0.8439956562148563,
+      "formula_fi": 0.8439956562148568,
+      "raw_record_fi": 1.4696112326473512,
+      "likelihood_max_error": 2.7755575615628914e-16
+    },
+    {
+      "n": 2,
+      "block_sizes": [
+        2
+      ],
+      "p": 0.4,
+      "logical_phase": 1.11,
+      "visibility": 0.19999999999999996,
+      "parity_fi": 0.12938750155752252,
+      "formula_fi": 0.1293875015575225,
+      "raw_record_fi": 0.2542920059193355,
+      "likelihood_max_error": 2.220446049250313e-16
+    },
+    {
+      "n": 2,
+      "block_sizes": [
+        2
+      ],
+      "p": 0.1,
+      "logical_phase": 1.5707963267948966,
+      "visibility": 0.8,
+      "parity_fi": 2.5599999999999987,
+      "formula_fi": 2.5600000000000005,
+      "raw_record_fi": 3.1219512195121935,
+      "likelihood_max_error": 4.440892098500626e-16
+    },
+    {
+      "n": 2,
+      "block_sizes": [
+        2
+      ],
+      "p": 0.25,
+      "logical_phase": 1.5707963267948966,
+      "visibility": 0.5,
+      "parity_fi": 0.9999999999999996,
+      "formula_fi": 1.0,
+      "raw_record_fi": 1.5999999999999992,
+      "likelihood_max_error": 2.220446049250313e-16
+    },
+    {
+      "n": 2,
+      "block_sizes": [
+        2
+      ],
+      "p": 0.4,
+      "logical_phase": 1.5707963267948966,
+      "visibility": 0.19999999999999996,
+      "parity_fi": 0.1599999999999999,
+      "formula_fi": 0.15999999999999992,
+      "raw_record_fi": 0.30769230769230743,
+      "likelihood_max_error": 2.220446049250313e-16
+    },
+    {
+      "n": 4,
+      "block_sizes": [
+        2,
+        2
+      ],
+      "p": 0.1,
+      "logical_phase": 0.37,
+      "visibility": 0.6400000000000001,
+      "parity_fi": 1.330803225882447,
+      "formula_fi": 1.3308032258824483,
+      "raw_record_fi": 5.997264291590829,
+      "likelihood_max_error": 6.661338147750939e-16
+    },
+    {
+      "n": 4,
+      "block_sizes": [
+        2,
+        2
+      ],
+      "p": 0.25,
+      "logical_phase": 0.37,
+      "visibility": 0.25,
+      "parity_fi": 0.1382779674732457,
+      "formula_fi": 0.13827796747324578,
+      "raw_record_fi": 0.5198450101103309,
+      "likelihood_max_error": 4.440892098500626e-16
+    },
+    {
+      "n": 4,
+      "block_sizes": [
+        2,
+        2
+      ],
+      "p": 0.4,
+      "logical_phase": 0.37,
+      "visibility": 0.03999999999999998,
+      "parity_fi": 0.003352264693677669,
+      "formula_fi": 0.0033522646936776698,
+      "raw_record_fi": 0.012620241774634524,
+      "likelihood_max_error": 4.440892098500626e-16
+    },
+    {
+      "n": 4,
+      "block_sizes": [
+        2,
+        2
+      ],
+      "p": 0.1,
+      "logical_phase": 1.11,
+      "visibility": 0.6400000000000001,
+      "parity_fi": 5.721138718766184,
+      "formula_fi": 5.721138718766186,
+      "raw_record_fi": 9.525783148606612,
+      "likelihood_max_error": 4.440892098500626e-16
+    },
+    {
+      "n": 4,
+      "block_sizes": [
+        2,
+        2
+      ],
+      "p": 0.25,
+      "logical_phase": 1.11,
+      "visibility": 0.25,
+      "parity_fi": 0.8123145082626883,
+      "formula_fi": 0.8123145082626889,
+      "raw_record_fi": 2.2348198120180385,
+      "likelihood_max_error": 2.7755575615628914e-16
+    },
+    {
+      "n": 4,
+      "block_sizes": [
+        2,
+        2
+      ],
+      "p": 0.4,
+      "logical_phase": 1.11,
+      "visibility": 0.03999999999999998,
+      "parity_fi": 0.020544768575201232,
+      "formula_fi": 0.02054476857520124,
+      "raw_record_fi": 0.0762852070720732,
+      "likelihood_max_error": 2.7755575615628914e-16
+    },
+    {
+      "n": 4,
+      "block_sizes": [
+        2,
+        2
+      ],
+      "p": 0.1,
+      "logical_phase": 1.5707963267948966,
+      "visibility": 0.6400000000000001,
+      "parity_fi": 6.553599999999995,
+      "formula_fi": 6.553600000000003,
+      "raw_record_fi": 9.746579417013676,
+      "likelihood_max_error": 1.1102230246251565e-15
+    },
+    {
+      "n": 4,
+      "block_sizes": [
+        2,
+        2
+      ],
+      "p": 0.25,
+      "logical_phase": 1.5707963267948966,
+      "visibility": 0.25,
+      "parity_fi": 0.9999999999999992,
+      "formula_fi": 1.0,
+      "raw_record_fi": 2.5599999999999983,
+      "likelihood_max_error": 3.885780586188048e-16
+    },
+    {
+      "n": 4,
+      "block_sizes": [
+        2,
+        2
+      ],
+      "p": 0.4,
+      "logical_phase": 1.5707963267948966,
+      "visibility": 0.03999999999999998,
+      "parity_fi": 0.025599999999999963,
+      "formula_fi": 0.025599999999999973,
+      "raw_record_fi": 0.09467455621301762,
+      "likelihood_max_error": 1.6653345369377348e-16
+    },
+    {
+      "n": 6,
+      "block_sizes": [
+        3,
+        3
+      ],
+      "p": 0.1,
+      "logical_phase": 0.37,
+      "visibility": 0.8911359999999999,
+      "parity_fi": 12.070189685188023,
+      "formula_fi": 12.070189685188033,
+      "raw_record_fi": 20.553819901237823,
+      "likelihood_max_error": 6.661338147750939e-16
+    },
+    {
+      "n": 6,
+      "block_sizes": [
+        3,
+        3
+      ],
+      "p": 0.25,
+      "logical_phase": 0.37,
+      "visibility": 0.47265625,
+      "parity_fi": 1.3051329698053582,
+      "formula_fi": 1.3051329698053595,
+      "raw_record_fi": 2.6067691693177006,
+      "likelihood_max_error": 7.771561172376096e-16
+    },
+    {
+      "n": 6,
+      "block_sizes": [
+        3,
+        3
+      ],
+      "p": 0.4,
+      "logical_phase": 0.37,
+      "visibility": 0.08761599999999996,
+      "parity_fi": 0.036380687263583594,
+      "formula_fi": 0.03638068726358361,
+      "raw_record_fi": 0.06118500945545399,
+      "likelihood_max_error": 4.440892098500626e-16
+    },
+    {
+      "n": 6,
+      "block_sizes": [
+        3,
+        3
+      ],
+      "p": 0.1,
+      "logical_phase": 1.11,
+      "visibility": 0.8911359999999999,
+      "parity_fi": 27.20793668696239,
+      "formula_fi": 27.207936686962405,
+      "raw_record_fi": 28.152529087137566,
+      "likelihood_max_error": 4.440892098500626e-16
+    },
+    {
+      "n": 6,
+      "block_sizes": [
+        3,
+        3
+      ],
+      "p": 0.25,
+      "logical_phase": 1.11,
+      "visibility": 0.47265625,
+      "parity_fi": 6.75052526727816,
+      "formula_fi": 6.750525267278164,
+      "raw_record_fi": 8.59730638701307,
+      "likelihood_max_error": 8.881784197001252e-16
+    },
+    {
+      "n": 6,
+      "block_sizes": [
+        3,
+        3
+      ],
+      "p": 0.4,
+      "logical_phase": 1.11,
+      "visibility": 0.08761599999999996,
+      "parity_fi": 0.22205108987055794,
+      "formula_fi": 0.22205108987055802,
+      "raw_record_fi": 0.3616362925735366,
+      "likelihood_max_error": 3.3306690738754696e-16
+    },
+    {
+      "n": 6,
+      "block_sizes": [
+        3,
+        3
+      ],
+      "p": 0.1,
+      "logical_phase": 1.5707963267948966,
+      "visibility": 0.8911359999999999,
+      "parity_fi": 28.58844133785599,
+      "formula_fi": 28.588441337855997,
+      "raw_record_fi": 29.08264643614936,
+      "likelihood_max_error": 8.881784197001252e-16
+    },
+    {
+      "n": 6,
+      "block_sizes": [
+        3,
+        3
+      ],
+      "p": 0.25,
+      "logical_phase": 1.5707963267948966,
+      "visibility": 0.47265625,
+      "parity_fi": 8.042541503906246,
+      "formula_fi": 8.04254150390625,
+      "raw_record_fi": 9.654336734693874,
+      "likelihood_max_error": 4.440892098500626e-16
+    },
+    {
+      "n": 6,
+      "block_sizes": [
+        3,
+        3
+      ],
+      "p": 0.4,
+      "logical_phase": 1.5707963267948966,
+      "visibility": 0.08761599999999996,
+      "parity_fi": 0.2763562844159996,
+      "formula_fi": 0.2763562844159997,
+      "raw_record_fi": 0.44607132734693816,
+      "likelihood_max_error": 2.7755575615628914e-16
+    },
+    {
+      "n": 9,
+      "block_sizes": [
+        3,
+        3,
+        3
+      ],
+      "p": 0.1,
+      "logical_phase": 0.37,
+      "visibility": 0.8412323839999999,
+      "parity_fi": 19.47600499103661,
+      "formula_fi": 19.476004991036675,
+      "raw_record_fi": 35.53359659855431,
+      "likelihood_max_error": 1.5543122344752192e-15
+    },
+    {
+      "n": 9,
+      "block_sizes": [
+        3,
+        3,
+        3
+      ],
+      "p": 0.25,
+      "logical_phase": 0.37,
+      "visibility": 0.324951171875,
+      "parity_fi": 1.231477868132441,
+      "formula_fi": 1.2314778681324403,
+      "raw_record_fi": 2.3211374105013953,
+      "likelihood_max_error": 1.6653345369377348e-15
+    },
+    {
+      "n": 9,
+      "block_sizes": [
+        3,
+        3,
+        3
+      ],
+      "p": 0.4,
+      "logical_phase": 0.37,
+      "visibility": 0.02593433599999998,
+      "parity_fi": 0.007128254157933672,
+      "formula_fi": 0.007128254157933705,
+      "raw_record_fi": 0.01476454241675299,
+      "likelihood_max_error": 5.551115123125783e-16
+    },
+    {
+      "n": 9,
+      "block_sizes": [
+        3,
+        3,
+        3
+      ],
+      "p": 0.1,
+      "logical_phase": 1.11,
+      "visibility": 0.8412323839999999,
+      "parity_fi": 53.46921910206254,
+      "formula_fi": 53.46921910206265,
+      "raw_record_fi": 56.11857914737843,
+      "likelihood_max_error": 5.329070518200751e-15
+    },
+    {
+      "n": 9,
+      "block_sizes": [
+        3,
+        3,
+        3
+      ],
+      "p": 0.25,
+      "logical_phase": 1.11,
+      "visibility": 0.324951171875,
+      "parity_fi": 7.0082314411022395,
+      "formula_fi": 7.008231441102204,
+      "raw_record_fi": 9.696239328150753,
+      "likelihood_max_error": 2.886579864025407e-15
+    },
+    {
+      "n": 9,
+      "block_sizes": [
+        3,
+        3,
+        3
+      ],
+      "p": 0.4,
+      "logical_phase": 1.11,
+      "visibility": 0.02593433599999998,
+      "parity_fi": 0.04371363468084383,
+      "formula_fi": 0.04371363468084376,
+      "raw_record_fi": 0.08984491545829643,
+      "likelihood_max_error": 1.2212453270876722e-15
+    },
+    {
+      "n": 9,
+      "block_sizes": [
+        3,
+        3,
+        3
+      ],
+      "p": 0.1,
+      "logical_phase": 1.5707963267948966,
+      "visibility": 0.8412323839999999,
+      "parity_fi": 57.321425835116024,
+      "formula_fi": 57.32142583511618,
+      "raw_record_fi": 58.81419444100008,
+      "likelihood_max_error": 7.993605777301127e-15
+    },
+    {
+      "n": 9,
+      "block_sizes": [
+        3,
+        3,
+        3
+      ],
+      "p": 0.25,
+      "logical_phase": 1.5707963267948966,
+      "visibility": 0.324951171875,
+      "parity_fi": 8.553054392337799,
+      "formula_fi": 8.553054392337799,
+      "raw_record_fi": 11.249026284620985,
+      "likelihood_max_error": 2.220446049250313e-16
+    },
+    {
+      "n": 9,
+      "block_sizes": [
+        3,
+        3,
+        3
+      ],
+      "p": 0.4,
+      "logical_phase": 1.5707963267948966,
+      "visibility": 0.02593433599999998,
+      "parity_fi": 0.05447977248463251,
+      "formula_fi": 0.0544797724846325,
+      "raw_record_fi": 0.11172175015780736,
+      "likelihood_max_error": 4.996003610813204e-16
+    },
+    {
+      "n": 9,
+      "block_sizes": [
+        2,
+        3,
+        4
+      ],
+      "p": 0.1,
+      "logical_phase": 0.37,
+      "visibility": 0.7129087999999999,
+      "parity_fi": 9.643629041024083,
+      "formula_fi": 9.643629041024088,
+      "raw_record_fi": 32.728930099363,
+      "likelihood_max_error": 2.6645352591003757e-15
+    },
+    {
+      "n": 9,
+      "block_sizes": [
+        2,
+        3,
+        4
+      ],
+      "p": 0.25,
+      "logical_phase": 0.37,
+      "visibility": 0.236328125,
+      "parity_fi": 0.6217598554295897,
+      "formula_fi": 0.6217598554295902,
+      "raw_record_fi": 1.994097209513051,
+      "likelihood_max_error": 3.885780586188048e-16
+    },
+    {
+      "n": 9,
+      "block_sizes": [
+        2,
+        3,
+        4
+      ],
+      "p": 0.4,
+      "logical_phase": 0.37,
+      "visibility": 0.017523199999999982,
+      "parity_fi": 0.0032532819126818028,
+      "formula_fi": 0.0032532819126817937,
+      "raw_record_fi": 0.013132365644849191,
+      "likelihood_max_error": 1.7763568394002505e-15
+    },
+    {
+      "n": 9,
+      "block_sizes": [
+        2,
+        3,
+        4
+      ],
+      "p": 0.1,
+      "logical_phase": 1.11,
+      "visibility": 0.7129087999999999,
+      "parity_fi": 36.717348937095196,
+      "formula_fi": 36.71734893709521,
+      "raw_record_fi": 51.60918771977349,
+      "likelihood_max_error": 2.4424906541753444e-15
+    },
+    {
+      "n": 9,
+      "block_sizes": [
+        2,
+        3,
+        4
+      ],
+      "p": 0.25,
+      "logical_phase": 1.11,
+      "visibility": 0.236328125,
+      "parity_fi": 3.6699684802739996,
+      "formula_fi": 3.669968480274007,
+      "raw_record_fi": 8.766852767889644,
+      "likelihood_max_error": 1.3322676295501878e-15
+    },
+    {
+      "n": 9,
+      "block_sizes": [
+        2,
+        3,
+        4
+      ],
+      "p": 0.4,
+      "logical_phase": 1.11,
+      "visibility": 0.017523199999999982,
+      "parity_fi": 0.01995547623877354,
+      "formula_fi": 0.019955476238773476,
+      "raw_record_fi": 0.08002700345670608,
+      "likelihood_max_error": 1.6653345369377348e-15
+    },
+    {
+      "n": 9,
+      "block_sizes": [
+        2,
+        3,
+        4
+      ],
+      "p": 0.1,
+      "logical_phase": 1.5707963267948966,
+      "visibility": 0.7129087999999999,
+      "parity_fi": 41.16735552651255,
+      "formula_fi": 41.16735552651263,
+      "raw_record_fi": 53.22950835059558,
+      "likelihood_max_error": 1.3322676295501878e-15
+    },
+    {
+      "n": 9,
+      "block_sizes": [
+        2,
+        3,
+        4
+      ],
+      "p": 0.25,
+      "logical_phase": 1.5707963267948966,
+      "visibility": 0.236328125,
+      "parity_fi": 4.523929595947264,
+      "formula_fi": 4.523929595947266,
+      "raw_record_fi": 10.148989547038322,
+      "likelihood_max_error": 4.440892098500626e-16
+    },
+    {
+      "n": 9,
+      "block_sizes": [
+        2,
+        3,
+        4
+      ],
+      "p": 0.4,
+      "logical_phase": 1.5707963267948966,
+      "visibility": 0.017523199999999982,
+      "parity_fi": 0.024872065597440016,
+      "formula_fi": 0.02487206559743995,
+      "raw_record_fi": 0.09955339125584947,
+      "likelihood_max_error": 1.3322676295501878e-15
+    },
+    {
+      "n": 6,
+      "block_sizes": [
+        1,
+        2,
+        3
+      ],
+      "p": 0.1,
+      "logical_phase": 0.37,
+      "visibility": 0.60416,
+      "parity_fi": 2.516847102889895,
+      "formula_fi": 2.5168471028898978,
+      "raw_record_fi": 4.220905985681305,
+      "likelihood_max_error": 6.661338147750939e-16
+    },
+    {
+      "n": 6,
+      "block_sizes": [
+        1,
+        2,
+        3
+      ],
+      "p": 0.25,
+      "logical_phase": 0.37,
+      "visibility": 0.171875,
+      "parity_fi": 0.1427313435673209,
+      "formula_fi": 0.1427313435673211,
+      "raw_record_fi": 0.2703667787459271,
+      "likelihood_max_error": 3.3306690738754696e-16
+    },
+    {
+      "n": 6,
+      "block_sizes": [
+        1,
+        2,
+        3
+      ],
+      "p": 0.4,
+      "logical_phase": 0.37,
+      "visibility": 0.011839999999999991,
+      "parity_fi": 0.0006600133815961716,
+      "formula_fi": 0.0006600133815961721,
+      "raw_record_fi": 0.0016142673990199126,
+      "likelihood_max_error": 4.996003610813204e-16
+    },
+    {
+      "n": 6,
+      "block_sizes": [
+        1,
+        2,
+        3
+      ],
+      "p": 0.1,
+      "logical_phase": 1.11,
+      "visibility": 0.60416,
+      "parity_fi": 11.36219902385306,
+      "formula_fi": 11.362199023853062,
+      "raw_record_fi": 14.600568949523602,
+      "likelihood_max_error": 8.881784197001252e-16
+    },
+    {
+      "n": 6,
+      "block_sizes": [
+        1,
+        2,
+        3
+      ],
+      "p": 0.25,
+      "logical_phase": 1.11,
+      "visibility": 0.171875,
+      "parity_fi": 0.8582146675680811,
+      "formula_fi": 0.8582146675680817,
+      "raw_record_fi": 1.5294629337107486,
+      "likelihood_max_error": 2.220446049250313e-16
+    },
+    {
+      "n": 6,
+      "block_sizes": [
+        1,
+        2,
+        3
+      ],
+      "p": 0.4,
+      "logical_phase": 1.11,
+      "visibility": 0.011839999999999991,
+      "parity_fi": 0.004048944440091306,
+      "formula_fi": 0.004048944440091306,
+      "raw_record_fi": 0.00989487232073783,
+      "likelihood_max_error": 4.440892098500626e-16
+    },
+    {
+      "n": 6,
+      "block_sizes": [
+        1,
+        2,
+        3
+      ],
+      "p": 0.1,
+      "logical_phase": 1.5707963267948966,
+      "visibility": 0.60416,
+      "parity_fi": 13.140335001599984,
+      "formula_fi": 13.1403350016,
+      "raw_record_fi": 16.1627147290344,
+      "likelihood_max_error": 1.9984014443252818e-15
+    },
+    {
+      "n": 6,
+      "block_sizes": [
+        1,
+        2,
+        3
+      ],
+      "p": 0.25,
+      "logical_phase": 1.5707963267948966,
+      "visibility": 0.171875,
+      "parity_fi": 1.063476562499999,
+      "formula_fi": 1.0634765625,
+      "raw_record_fi": 1.8642857142857123,
+      "likelihood_max_error": 3.3306690738754696e-16
+    },
+    {
+      "n": 6,
+      "block_sizes": [
+        1,
+        2,
+        3
+      ],
+      "p": 0.4,
+      "logical_phase": 1.5707963267948966,
+      "visibility": 0.011839999999999991,
+      "parity_fi": 0.0050466815999999914,
+      "formula_fi": 0.005046681599999993,
+      "raw_record_fi": 0.012330197802197778,
+      "likelihood_max_error": 4.440892098500626e-16
+    }
+  ]
+}

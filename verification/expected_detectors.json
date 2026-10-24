@@ -1,0 +1,302 @@
+{
+  "biased_correlated_input_case_count": 3,
+  "biased_correlated_input_cases": [
+    {
+      "detector": "asymmetric_ternary",
+      "distribution_max_absolute_error": 1.6653345369377348e-16,
+      "input_probabilities_lexicographic": [
+        0.4,
+        0.0,
+        0.0,
+        0.1,
+        0.0,
+        0.15,
+        0.05,
+        0.3
+      ],
+      "observed_bias": 0.16840036159375016,
+      "output_probabilities_lexicographic": [
+        0.27283690812890643,
+        0.05233496687109378,
+        0.05841088796484377,
+        0.11641723703515625,
+        0.06911794351171871,
+        0.14108518148828125,
+        0.05386085414453126,
+        0.23593602085546878
+      ],
+      "predicted_bias": 0.16840036159375002
+    },
+    {
+      "detector": "one_sided",
+      "distribution_max_absolute_error": 1.1102230246251565e-16,
+      "input_probabilities_lexicographic": [
+        0.4,
+        0.0,
+        0.0,
+        0.1,
+        0.0,
+        0.15,
+        0.05,
+        0.3
+      ],
+      "observed_bias": 0.25418083599999997,
+      "output_probabilities_lexicographic": [
+        0.3246757945,
+        0.0276992055,
+        0.022587280499999994,
+        0.12503771949999998,
+        0.0593032605,
+        0.13382173949999998,
+        0.0435551645,
+        0.2633198355
+      ],
+      "predicted_bias": 0.254180836
+    },
+    {
+      "detector": "bsc",
+      "distribution_max_absolute_error": 5.551115123125783e-17,
+      "input_probabilities_lexicographic": [
+        0.4,
+        0.0,
+        0.0,
+        0.1,
+        0.0,
+        0.15,
+        0.05,
+        0.3
+      ],
+      "observed_bias": 0.12731904,
+      "output_probabilities_lexicographic": [
+        0.24606848000000006,
+        0.06393152000000002,
+        0.07466432000000005,
+        0.11533568000000001,
+        0.07640191999999996,
+        0.14359807999999996,
+        0.05865728000000001,
+        0.22134272000000002
+      ],
+      "predicted_bias": 0.12731904000000002
+    }
+  ],
+  "fair_tie_case_count": 2,
+  "fair_tie_cases": [
+    {
+      "alpha": 0.2,
+      "beta": 0.2,
+      "block_size": 2,
+      "epsilon": 0.2,
+      "majority_formula": 0.20000000000000004,
+      "p": 0.2,
+      "tie_mass": 0.32
+    },
+    {
+      "alpha": 0.104,
+      "beta": 0.104,
+      "block_size": 4,
+      "epsilon": 0.104,
+      "majority_formula": 0.10400000000000004,
+      "p": 0.2,
+      "tie_mass": 0.1536
+    }
+  ],
+  "ghz_parity_case_count": 9,
+  "ghz_parity_cases": [
+    {
+      "absolute_error": 0.0,
+      "detector": "asymmetric_ternary",
+      "observed_bias": 0.41260891523603554,
+      "phase": 0.2,
+      "predicted_bias": 0.41260891523603554
+    },
+    {
+      "absolute_error": 5.551115123125783e-17,
+      "detector": "asymmetric_ternary",
+      "observed_bias": 0.32199925225215636,
+      "phase": 0.7,
+      "predicted_bias": 0.3219992522521563
+    },
+    {
+      "absolute_error": 4.163336342344337e-17,
+      "detector": "asymmetric_ternary",
+      "observed_bias": -0.09565228725293329,
+      "phase": 1.8,
+      "predicted_bias": -0.09565228725293325
+    },
+    {
+      "absolute_error": 0.0,
+      "detector": "one_sided",
+      "observed_bias": 0.6227853552283648,
+      "phase": 0.2,
+      "predicted_bias": 0.6227853552283648
+    },
+    {
+      "absolute_error": 1.1102230246251565e-16,
+      "detector": "one_sided",
+      "observed_bias": 0.4860205664300998,
+      "phase": 0.7,
+      "predicted_bias": 0.48602056643009967
+    },
+    {
+      "absolute_error": 5.551115123125783e-17,
+      "detector": "one_sided",
+      "observed_bias": -0.14437604592510006,
+      "phase": 1.8,
+      "predicted_bias": -0.14437604592510012
+    },
+    {
+      "absolute_error": 0.0,
+      "detector": "bsc",
+      "observed_bias": 0.3119528395670804,
+      "phase": 0.2,
+      "predicted_bias": 0.3119528395670804
+    },
+    {
+      "absolute_error": 1.1102230246251565e-16,
+      "detector": "bsc",
+      "observed_bias": 0.24344743259140333,
+      "phase": 0.7,
+      "predicted_bias": 0.24344743259140322
+    },
+    {
+      "absolute_error": 1.3877787807814457e-17,
+      "detector": "bsc",
+      "observed_bias": -0.07231788145578238,
+      "phase": 1.8,
+      "predicted_bias": -0.07231788145578237
+    }
+  ],
+  "max_absolute_identity_error": 1.6653345369377348e-16,
+  "repetition_case_count": 9,
+  "repetition_cases": [
+    {
+      "alpha": 0.15,
+      "bayes_identity_error": 0.0,
+      "beta": 0.2,
+      "bhattacharyya_bound": 0.3769320393099246,
+      "bhattacharyya_coefficient": 0.7538640786198492,
+      "block_size": 1,
+      "detector": "asymmetric_ternary",
+      "epsilon": 0.175,
+      "erasure_reconstruction_error": 0.0,
+      "eta": 0.35000000000000003,
+      "symmetrization_error": 0.0,
+      "tie_mass": 0.0
+    },
+    {
+      "alpha": 0.1925,
+      "bayes_identity_error": 0.0,
+      "beta": 0.1,
+      "bhattacharyya_bound": 0.2841555245166771,
+      "bhattacharyya_coefficient": 0.7538640786198492,
+      "block_size": 2,
+      "detector": "asymmetric_ternary",
+      "epsilon": 0.14625,
+      "erasure_reconstruction_error": 0.0,
+      "eta": 0.35000000000000003,
+      "symmetrization_error": 0.0,
+      "tie_mass": 0.0
+    },
+    {
+      "alpha": 0.026611875,
+      "bayes_identity_error": 0.0,
+      "beta": 0.05792,
+      "bhattacharyya_bound": 0.12174054829665289,
+      "bhattacharyya_coefficient": 0.7538640786198492,
+      "block_size": 5,
+      "detector": "asymmetric_ternary",
+      "epsilon": 0.0422659375,
+      "erasure_reconstruction_error": 0.0,
+      "eta": 0.35000000000000003,
+      "symmetrization_error": 0.0,
+      "tie_mass": 0.0
+    },
+    {
+      "alpha": 0.0,
+      "bayes_identity_error": 0.0,
+      "beta": 0.3,
+      "bhattacharyya_bound": 0.27386127875258304,
+      "bhattacharyya_coefficient": 0.5477225575051661,
+      "block_size": 1,
+      "detector": "one_sided",
+      "epsilon": 0.15,
+      "erasure_reconstruction_error": 0.0,
+      "eta": 0.3,
+      "symmetrization_error": 0.0,
+      "tie_mass": 0.0
+    },
+    {
+      "alpha": 0.0,
+      "bayes_identity_error": 0.0,
+      "beta": 0.09,
+      "bhattacharyya_bound": 0.14999999999999997,
+      "bhattacharyya_coefficient": 0.5477225575051661,
+      "block_size": 2,
+      "detector": "one_sided",
+      "epsilon": 0.045,
+      "erasure_reconstruction_error": 0.0,
+      "eta": 0.3,
+      "symmetrization_error": 1.1102230246251565e-16,
+      "tie_mass": 0.0
+    },
+    {
+      "alpha": 0.0,
+      "bayes_identity_error": 0.0,
+      "beta": 0.00243,
+      "bhattacharyya_bound": 0.024647515087732465,
+      "bhattacharyya_coefficient": 0.5477225575051661,
+      "block_size": 5,
+      "detector": "one_sided",
+      "epsilon": 0.001215,
+      "erasure_reconstruction_error": 0.0,
+      "eta": 0.3,
+      "symmetrization_error": 0.0,
+      "tie_mass": 0.0
+    },
+    {
+      "alpha": 0.2,
+      "bayes_identity_error": 0.0,
+      "beta": 0.2,
+      "bhattacharyya_bound": 0.4,
+      "bhattacharyya_coefficient": 0.8,
+      "block_size": 1,
+      "detector": "bsc",
+      "epsilon": 0.2,
+      "erasure_reconstruction_error": 0.0,
+      "eta": 0.4,
+      "symmetrization_error": 0.0,
+      "tie_mass": 0.0
+    },
+    {
+      "alpha": 0.04,
+      "bayes_identity_error": 2.7755575615628914e-17,
+      "beta": 0.36,
+      "bhattacharyya_bound": 0.32000000000000006,
+      "bhattacharyya_coefficient": 0.8,
+      "block_size": 2,
+      "detector": "bsc",
+      "epsilon": 0.2,
+      "erasure_reconstruction_error": 0.0,
+      "eta": 0.4,
+      "symmetrization_error": 2.7755575615628914e-17,
+      "tie_mass": 0.32
+    },
+    {
+      "alpha": 0.05792,
+      "bayes_identity_error": 0.0,
+      "beta": 0.05792,
+      "bhattacharyya_bound": 0.16384000000000004,
+      "bhattacharyya_coefficient": 0.8,
+      "block_size": 5,
+      "detector": "bsc",
+      "epsilon": 0.05792,
+      "erasure_reconstruction_error": 0.0,
+      "eta": 0.4,
+      "symmetrization_error": 0.0,
+      "tie_mass": 0.0
+    }
+  ],
+  "schema_version": 1,
+  "scope": "Finite classical-detector identities; no asymptotic or experimental claim."
+}

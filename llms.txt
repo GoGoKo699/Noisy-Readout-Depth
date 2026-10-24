@@ -1,0 +1,31 @@
+# Noisy Readout Depth
+
+Question: how does coherent terminal readout depth constrain local phase information under independent detector noise?
+
+Authoritative route:
+- science/model.md: exact model, depth convention, quantifiers, and T1–T4.
+- science/converse.md: erasure degradation, environmental gauge, support-intersection covariance, and causal-cone counts.
+- science/construction.md: inherited compress–Hadamard–fanout primitive organized into blocks; exact parity likelihood; two-setting and continuous-phase variants; depth and gate count.
+- science/frontier.md: finite grouping lemma, full-cube tiling, uniform-in-size logarithmic lattice frontier, and all-to-all bounds.
+- science/detectors.md: fixed finite-alphabet classical detectors, overlap, repetition discrimination, and independent random-complement symmetrization.
+- science/interpretation.md: resource accounting, global phase ambiguity, and counterexamples outside the model.
+- references/RELATED_WORK.md: inherited methods, exact model/quantifier comparison, and source locations.
+- references/references.bib: structured bibliographic metadata.
+- verification/README.md: reproduction commands and the scope of finite checks.
+
+For the shortest scientific story, read README.md, science/model.md, and science/interpretation.md.
+For a proof audit, read model, converse, construction, frontier, then detectors.
+For reproduction, run python3 verification/run_all.py after installing verification/requirements.txt.
+
+Essential distinctions:
+- N qubit sensors, additive generator sum(Z_i)/2; arbitrary supplied input state.
+- d counts disjoint two-qubit layers after encoding, with ideal gates and one independent terminal detector round.
+- The converse is pointwise and applies to every probe; the lower protocol works at every phase with a retained setting label.
+- Full cubic grids support matched geometric achievability. Bounded density alone supports only the geometric converse.
+- The lattice result matches the order of log(1+F/N). All-to-all has a matching Heisenberg-depth order but an unresolved leading coefficient.
+- Continuous recorded phases attain an asymptotically unit ideal-information fraction; two fixed settings suffice for a constant fraction.
+- The asymmetric-detector BSC formula is exact after unmasking and marginalizing complement labels; retaining more data may increase information.
+- Local Fisher information, even uniformly over phase, does not resolve global phase aliases.
+- Readout depth is not total preparation-and-sensing cost.
+- Purification machinery and the global GHZ decoder are inherited. Consult related work before describing novelty.
+- Finite numerical checks do not establish universal theorems, experimental performance, or publication priority.
