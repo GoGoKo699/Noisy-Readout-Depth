@@ -73,7 +73,7 @@ The weaker final inequality suffices for all constants in the [finite-size front
 
 ## 3. Exact parity likelihood and information
 
-After logical decoding, the parity $Y\in\{+1,-1\}$ has distribution
+After logical decoding, the parity $Y\in\lbrace+1,-1\rbrace$ has distribution
 
 ```math
 \Pr_\theta(Y=y\mid\phi)

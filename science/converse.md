@@ -40,7 +40,7 @@ The $h_i$ commute, each has operator norm $1/2$, and $C_i$ is any support contai
 
 ## 2. A legitimate environmental gauge
 
-Purify $\sigma_\theta$ with an inaccessible mathematical reference $R$. An erasure dilation has branches indexed by the erased set $E\subseteq\{1,\ldots,N\}$, with probability
+Purify $\sigma_\theta$ with an inaccessible mathematical reference $R$. An erasure dilation has branches indexed by the erased set $E\subseteq\lbrace1,\ldots,N\rbrace$, with probability
 
 ```math
 w_E=\eta^{\lvert E\rvert}(1-\eta)^{N-\lvert E\rvert}.
@@ -110,7 +110,7 @@ c_{ij}:=\mathbb E_E[(1-a_i)(1-a_j)]
 \sum_Ew_EK_E^2=\sum_{i,j}c_{ij}h_ih_j.
 ```
 
-All coefficients are nonnegative. Disjoint supports contribute exactly zero; this cancellation is the source of the extensive, rather than automatically quadratic, bound at fixed depth. Since $\|h_ih_j\|\le1/4$,
+All coefficients are nonnegative. Disjoint supports contribute exactly zero; this cancellation is the source of the extensive, rather than automatically quadratic, bound at fixed depth. Since $\lVert h_ih_j\rVert\le1/4$,
 
 ```math
 F_C(\theta)\le\sum_{i,j}

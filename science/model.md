@@ -72,7 +72,7 @@ F_C(\theta)\le
 ```
 
 If $s=\max_i\lvert C_i\rvert$ and
-$\Delta=\max_i\lvert\{j:C_i\cap C_j\ne\varnothing\}\rvert$, then
+$\Delta=\max_i\lvert\lbrace j:C_i\cap C_j\ne\varnothing\rbrace\rvert$, then
 
 ```math
 F_C(\theta)\le

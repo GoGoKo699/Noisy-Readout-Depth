@@ -4,7 +4,7 @@ The resource law depends on detector overlap and on the possibility of distingui
 
 ## Detector model and two constants
 
-Write $q_x(y)=P(y\mid x)$ for $x\in\{0,1\}$ and $y$ in a finite alphabet $\mathcal Y$. The corresponding qubit measurement is diagonal:
+Write $q_x(y)=P(y\mid x)$ for $x\in\lbrace0,1\rbrace$ and $y$ in a finite alphabet $\mathcal Y$. The corresponding qubit measurement is diagonal:
 
 ```math
 M_y=q_0(y)\lvert0\rangle\langle0\rvert
@@ -27,7 +27,7 @@ For a BSC, $\eta=2p$ and $B=2\sqrt{p(1-p)}$. The converse uses $\eta$ and the co
 
 ## Exact erasure simulation
 
-Set $r(y)=\min\{q_0(y),q_1(y)\}$ and define normalized distributions
+Set $r(y)=\min\lbrace q_0(y),q_1(y)\rbrace$ and define normalized distributions
 
 ```math
 q_{\rm c}(y)=\frac{r(y)}{\eta},
