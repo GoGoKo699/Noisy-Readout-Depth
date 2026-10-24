@@ -264,7 +264,7 @@ Dependencies refer only to earlier milestones. A dependency identifies an idea u
 **The matched logarithmic lattice frontier**
 
 - **Central question:** In what precise sense do the lattice upper and lower bounds match?
-- **Understanding target:** Combine the causal ceiling and packed-block lower bound to interpret $\log(1+\mathcal F/N)$ as order $\min\{(d+1)^D,\log(1+N)\}$. Explain fixed-depth extensivity, the intermediate enhancement and saturation, while distinguishing a logarithmic-order theorem from matched exponential constants.
+- **Understanding target:** Combine the causal ceiling and packed-block lower bound to interpret $\log(1+\mathcal F/N)$ as order $\min\lbrace(d+1)^D,\log(1+N)\rbrace$. Explain fixed-depth extensivity, the intermediate enhancement and saturation, while distinguishing a logarithmic-order theorem from matched exponential constants.
 - **Dependencies and story role:** M12, M21–M24. Synthesize the two arguments into the principal geometric frontier.
 - **Conceptual connection:** Accessible causal volume limits information from above and protects logical decisions from below.
 - **Source pointers:** Anchor §§4.1–4.2 supplies the performance framework; [logarithmic-order derivation](../science/frontier.md#deriving-the-logarithmic-order-statement), [T2](../science/model.md#t2-geometric-precision-frontier).

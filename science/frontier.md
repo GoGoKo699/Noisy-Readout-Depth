@@ -140,7 +140,7 @@ a_{p,D}\min\{(d+1)^D,\log(1+N)\}
 ```
 
 where, for example,
-$a_{p,D}=A_{p,D}\min\{1,c_p\}(2D)^{-D}>0$ suffices. This proves T2.
+$a_{p,D}=A_{p,D}\min\lbrace1,c_p\rbrace(2D)^{-D}>0$ suffices. This proves T2.
 
 The constants inside the exponential enhancement are not matched. The sharp statement is the order of its logarithm. At $d=0$, product equatorial probes and two local phase settings give the simpler explicit bound $\mathcal F\ge N(1-2p)^2/2$. At large depth the formula saturates at order $N^2$.
 
@@ -187,7 +187,7 @@ d\ge\log_2\log N-O_{p,c_0}(1)
 ```
 
 is necessary all-to-all. Indeed, the upper bound forces
-$\log N+O(1)\le2d\log2+\lvert\log(2p)\rvert\,2^d$, and the right side is bounded by a $p$-dependent constant times $2^d$.
+$\log N+O(1)\le2d\log2+\lvert\log(2p)\rvert\thinspace2^d$, and the right side is bounded by a $p$-dependent constant times $2^d$.
 
 The [logarithmic-block construction](construction.md#6-logarithmic-blocks-recover-nearly-all-local-information) gives the matching depth orders, and all-to-all uses
 
